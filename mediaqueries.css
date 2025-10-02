@@ -26,8 +26,8 @@
     max-width: 576px;
   }
   .header .header__container {
-    padding-left: 15px;
-    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
   .header
     .header__container
