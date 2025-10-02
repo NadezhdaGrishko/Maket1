@@ -68,6 +68,30 @@ h4 {
   align-items: center;
   gap: 25px;
 }
+.header .header__container .header__nav-mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  display: none;
+}
+.header .header__container .header__nav-mobile .mobile-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+}
+.header
+  .header__container
+  .header__nav-mobile
+  .mobile-link
+  .nav__link__mobile-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: #323949;
+}
 .header .header__container .header__nav .header__nav-link-container {
   display: flex;
   justify-content: start;
@@ -215,6 +239,27 @@ h4 {
   img {
   cursor: pointer;
 }
+.header
+  .header__container
+  .header__user
+  .header__user-container
+  .header__hamburger {
+  padding: 8px;
+  border-radius: 50%;
+  background-color: #f8f8f8;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: none;
+}
+.header
+  .header__container
+  .header__user
+  .header__user-container
+  .header__hamburger
+  img {
+  width: 100%;
+}
 
 /* HELP */
 .help {
@@ -254,6 +299,16 @@ h4 {
   justify-content: start;
   align-items: center;
   gap: 10px;
+}
+.help
+  .help__container
+  .help__columns
+  .help__column
+  .help__item
+  .help__item-header
+  .icon-arrow {
+  display: none;
+  margin-left: auto;
 }
 .help
   .help__container
