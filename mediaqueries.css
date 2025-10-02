@@ -16,6 +16,9 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .container {
+    max-width: 724px;
+  }
   .header .header__container .header__user .header__balance {
     display: none;
   }
@@ -23,7 +26,7 @@
 
 @media screen and (max-width: 768px) {
   .container {
-    max-width: 576px;
+    max-width: 546px;
   }
   .header .header__container {
     margin-left: 15px;
@@ -125,6 +128,8 @@
 @media screen and (max-width: 576px) {
   .container {
     max-width: 360px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .header .header__container .header__nav {
     display: none;
